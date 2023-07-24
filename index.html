@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Solution</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <!-- ======== google fonts ===== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- ========= daisy ui ========= -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .poppins-font {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .eb-fonts {
+            font-family: 'EB Garamond', serif;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                primary: '#B68C5A',
+                heading: '#414040',
+                paragraph: '#707070',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+
+<body>
+    <header class="container mx-auto">
+        <!-- =========== nav section ========= -->
+        <div class="navbar py-12">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <label tabindex="0" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </label>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <li><a class="text-[#707070] capitalize poppins-font">home</a></li>
+                    <li><a class="text-[#707070] capitalize poppins-font">service</a></li>
+                    <li><a class="text-[#707070] capitalize poppins-font">case</a></li>
+                    <li><a class="text-[#707070] capitalize poppins-font">blog</a></li>
+                    <li><a class="text-[#707070] capitalize poppins-font">contact us</a></li>
+                </ul>
+              </div>
+              <a class="cursor-pointer" href="#">
+                <img src="images/logo2.png" alt="logo">
+              </a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a class="text-[#707070] capitalize poppins-font">home</a></li>
+                <li><a class="text-[#707070] capitalize poppins-font">service</a></li>
+                <li><a class="text-[#707070] capitalize poppins-font">case</a></li>
+                <li><a class="text-[#707070] capitalize poppins-font">blog</a></li>
+                <li><a class="text-[#707070] capitalize poppins-font">contact us</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <a class=" bg-primary text-white py-5 px-8 rounded-lg hover:opacity-90 cursor-pointer transition-all font-semibold text-lg poppins-font">Free Consultation</a>
+            </div>
+          </div>
+
+          <!-- ============= banner section ======== -->
+          <div class="hero py-24" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.2)), url(./images/banner.png);">
+            <div class="hero-content text-center text-neutral-content">
+              <div class="">
+                <h1 class="mb-5 text-7xl font-bold max-w-3xl mx-auto eb-fonts">We Provide Effective Legal Solutions</h1>
+                <p class="mb-5 max-w-3xl">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <div>
+                    <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs text-black poppins" />
+                    <button class="py-3 px-5 rounded-lg hover:opacity-90 bg-primary border-0 text-white poppins">Get Started</button>
+                </div>
+              </div>
+            </div>
+          </div>
+    </header>
+
+    <!-- ====== legal practice section ========== -->
+    <div class="container mx-auto">
+        <div class="text-center">
+            <h2 class="text-heading text-5xl font-extrabold mb-6">The Legal Practice Area</h2>
+            <p class="text-paragraph max-w-lg mx-auto poppins">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+        </div>
+        <div class="grid grid-cols-3">
+            <div class="flex flex-col items-center justify-center px-6 py-16 border border-teal-600 ">
+                <div>
+                    <img src="images/business.png" alt="logo">
+                </div>
+                <h3 class="eb-fonts font-extrabold text-3xl text-heading mb-6">Business Law</h3>
+                <p class="text-center text-paragraph poppins mb-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <div>
+                    icon
+                </div>
+            </div>
+            <div class="flex flex-col items-center justify-center px-6 py-16 border border-teal-600 ">
+                <div>
+                    <img src="images/business.png" alt="logo">
+                </div>
+                <h3 class="eb-fonts font-extrabold text-3xl text-heading mb-6">Business Law</h3>
+                <p class="text-center text-paragraph poppins mb-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <div>
+                    icon
+                </div>
+            </div>
+            <div class="flex flex-col items-center justify-center px-6 py-16 border border-teal-600 ">
+                <div>
+                    <img src="images/business.png" alt="logo">
+                </div>
+                <h3 class="eb-fonts font-extrabold text-3xl text-heading mb-6">Business Law</h3>
+                <p class="text-center text-paragraph poppins mb-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <div>
+                    icon
+                </div>
+            </div>
+            <div class="flex flex-col items-center justify-center px-6 py-16 border border-teal-600 ">
+                <div>
+                    <img src="images/business.png" alt="logo">
+                </div>
+                <h3 class="eb-fonts font-extrabold text-3xl text-heading mb-6">Business Law</h3>
+                <p class="text-center text-paragraph poppins mb-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <div>
+                    icon
+                </div>
+            </div>
+            <div class="flex flex-col items-center justify-center px-6 py-16 border border-teal-600 ">
+                <div>
+                    <img src="images/business.png" alt="logo">
+                </div>
+                <h3 class="eb-fonts font-extrabold text-3xl text-heading mb-6">Business Law</h3>
+                <p class="text-center text-paragraph poppins mb-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <div>
+                    icon
+                </div>
+            </div>
+            <div class="flex flex-col items-center justify-center px-6 py-16 border border-teal-600 ">
+                <div>
+                    <img src="images/business.png" alt="logo">
+                </div>
+                <h3 class="eb-fonts font-extrabold text-3xl text-heading mb-6">Business Law</h3>
+                <p class="text-center text-paragraph poppins mb-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <div>
+                    icon
+                </div>
+            </div>
+            <div class="flex flex-col items-center justify-center px-6 py-16 border border-teal-600 ">
+                <div>
+                    <img src="images/business.png" alt="logo">
+                </div>
+                <h3 class="eb-fonts font-extrabold text-3xl text-heading mb-6">Business Law</h3>
+                <p class="text-center text-paragraph poppins mb-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <div>
+                    icon
+                </div>
+            </div>
+            <div class="flex flex-col items-center justify-center px-6 py-16 border border-teal-600 ">
+                <div>
+                    <img src="images/business.png" alt="logo">
+                </div>
+                <h3 class="eb-fonts font-extrabold text-3xl text-heading mb-6">Business Law</h3>
+                <p class="text-center text-paragraph poppins mb-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <div>
+                    icon
+                </div>
+            </div>
+            <div class="flex flex-col items-center justify-center px-6 py-16 border border-teal-600 ">
+                <div>
+                    <img src="images/business.png" alt="logo">
+                </div>
+                <h3 class="eb-fonts font-extrabold text-3xl text-heading mb-6">Business Law</h3>
+                <p class="text-center text-paragraph poppins mb-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <div>
+                    icon
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
